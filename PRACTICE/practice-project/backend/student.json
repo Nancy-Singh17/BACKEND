@@ -1,0 +1,20 @@
+[
+  {
+    "name": "abc",
+    "course": "BTECH",
+    "email": "abc",
+    "id": 1773737991842
+  },
+  {
+    "name": "xyz",
+    "course": "BTECH",
+    "email": "xyz",
+    "id": 1773738002890
+  },
+  {
+    "name": "abcd",
+    "course": "BTECH",
+    "email": "abcd@gmail.com",
+    "id": 1776001732251
+  }
+]
