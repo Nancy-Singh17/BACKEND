@@ -1,0 +1,17 @@
+<h2>Todo List</h2>
+
+<form action="/todos/add" method="POST">
+  <input name="title" required />
+  <button>Add</button>
+</form>
+
+<ul>
+  <% todos.forEach((todo, i) => { %>
+    <li>
+      <%= todo %>
+      <a href="/todos/delete/<%= i %>">Delete</a>
+    </li>
+  <% }) %>
+</ul>
+
+<a href="/logout">Logout</a>
